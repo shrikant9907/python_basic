@@ -1,5 +1,5 @@
 
-stars = 10
+stars = 5
 
 def pyramid_one(n):
 	# Number of rows	
@@ -13,7 +13,11 @@ def pyramid_one(n):
 		print("\r")
 
 pyramid_one(stars)
-
+# * 
+# * * 
+# * * * 
+# * * * * 
+# * * * * * 
 
 def pyramid_two(n):
 
@@ -32,6 +36,11 @@ def pyramid_two(n):
 		print("\r")
 
 pyramid_two(stars)
+#         * 
+#       * * 
+#     * * * 
+#   * * * * 
+# * * * * * 
 
 def pyramid_three(n): 
 
@@ -50,3 +59,8 @@ def pyramid_three(n):
 		print("\r")
 
 pyramid_three(stars)
+#     * 
+#    * * 
+#   * * * 
+#  * * * * 
+# * * * * * 
